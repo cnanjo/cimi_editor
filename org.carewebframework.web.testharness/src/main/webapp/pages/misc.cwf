@@ -1,0 +1,81 @@
+<span controller="org.carewebframework.web.testharness.MiscController">
+	<popup name="hoverPopup">
+		<label label="This is a test of a hover popup." />
+	</popup>
+	<grid>
+		<columns style="visibility:hidden">
+			<column width="30%" />
+			<column width="70%" />
+		</columns>
+		<rows>
+			<row>
+				<checkbox name="chkPreventClosure" label="Prevent page closure" />
+				Checking this should cause browser to challenge page closure.
+			</row>
+			<row>
+				<cell label="This is a cell">
+					With some text content.
+				</cell>
+				Cell with label and text content.
+			</row>
+			<row>
+				<cell label="This is a cell" />
+				Cell with label only.
+			</row>
+			<row>
+				<cell>
+					Text content.
+				</cell>
+				Cell with content only.
+			</row>
+			<row>
+				<rowcell colspan="2" label="Row cell spanning both columns" />
+			</row>
+			<row>
+				<label label="label" />
+				Simple label.
+			</row>
+			<row>
+				<span name="dynamicContent" />
+				This is dynamically-generated content.
+			</row>
+			<row>
+				<button label="Has Context Menu" context="contextMenu" />
+				This button has a context menu associated with it.
+			</row>
+			<row>
+				<button label="Has Hover Popup" popup="hoverPopup" />
+				This button has a hover popup associated with it.
+			</row>
+			<row>
+				<button name="btnSaveAsFile" label="Save to File" />
+				This button saves some text to a file.
+			</row>
+			<row>
+				<toolbar>
+					<div name="divMaskTest" height="50px" width="100px" style="display:inline-block; border: 1px solid black">
+						<button label="behind mask" />
+					</div>
+					<button name="btnMaskTest" label="Click to toggle mask"/>
+				</toolbar>
+				Test of masking components.  Should mask div to left of button.
+			</row>
+			<row>
+				<button name="btnToggleBalloon" label="Click Here" balloon="Balloon Text" />
+				Click to toggle balloon text.
+			</row>
+			<row>
+				<span name="custom">
+					This span has a custom attribute.
+					<?attribute key="test" value="this is a custom attribute"?>
+				</span>
+				Test of custom attribute: ${custom.test}
+			</row>
+			<row>
+				<slider synchronized="true"/>
+				Slider control.
+			</row>
+		</rows>
+	</grid>
+	
+</span>

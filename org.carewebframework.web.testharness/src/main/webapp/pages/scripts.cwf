@@ -1,0 +1,30 @@
+<page>
+	<div controller="org.carewebframework.web.testharness.ScriptsController">
+		<div>
+		You should see the message "Embedded script was executed." in the status log.
+		</div>
+		<cscript>
+			require(['cwf-core'], function(cwf) {
+			cwf.event.sendToServer({type: 'log', data: 'Embedded script was executed.'});
+			console.log('Embedded script was executed.');
+			});
+		</cscript>
+		<div>
+		You should see the message "External script was executed." in the status log.
+		</div>
+		<cscript src="js/scripts.js" />
+		<div>
+		You should see the message "Groovy script was executed." in the status log.
+		</div>
+		<sscript name="groovyscript" type="groovy">
+			return self.getName() + " is groovy!";
+		</sscript>
+		<div>
+		You should see the message "JRuby script was executed." in the status log.
+		</div>
+		<sscript name="jrubyscript" type="jruby">
+			require "java"
+			"#{$self.getName} rocks!"
+		</sscript>
+	</div>
+</page>
