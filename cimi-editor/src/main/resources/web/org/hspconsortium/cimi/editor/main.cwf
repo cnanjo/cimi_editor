@@ -1,0 +1,5 @@
+<page>
+	<div controller="${@cimiEditorController}" height="100%" width="100%">
+		<button label="${@msg.cimi.button.label}" name="btnTest" />
+	</div>
+</page>
