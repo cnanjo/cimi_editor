@@ -10,7 +10,7 @@
 	<beans profile="root">
 
 		<cwp:plugin id="cimiEditor" name="CIMI Editor"
-			url="web/org/hspconsortium/cwf/cimi/editor/main.cwf">
+			url="web/org/opencimi/cwf/cimi/editor/main.cwf">
 			<cwp:serialization>
 			</cwp:serialization>
 		</cwp:plugin>
@@ -20,7 +20,7 @@
 	<beans profile="child">
 
 		<bean id="cimiEditorController" scope="prototype"
-			class="org.hspconsortium.cwf.cimi.editor.MainController" />
+			class="org.opencimi.cwf.cimi.editor.MainController" />
 
 	</beans>
 

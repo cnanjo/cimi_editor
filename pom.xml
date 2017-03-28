@@ -11,7 +11,7 @@
     </parent>
 
     <name>CIMI Editor</name>
-    <groupId>org.hspconsortium.carewebframework</groupId>
+    <groupId>org.opencimi.carewebframework</groupId>
     <artifactId>cimi-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>

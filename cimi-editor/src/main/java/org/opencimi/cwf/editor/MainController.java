@@ -23,17 +23,33 @@
  *
  * #L%
  */
-package org.hspconsortium.cwf.cimi.testharness;
+package org.opencimi.cwf.editor;
 
-import org.carewebframework.web.ancillary.IAutoWired;
+import org.carewebframework.shell.plugins.PluginController;
+import org.carewebframework.web.annotation.EventHandler;
+import org.carewebframework.web.annotation.WiredComponent;
 import org.carewebframework.web.component.BaseComponent;
+import org.carewebframework.web.component.Button;
 
-public class MainController implements IAutoWired {
-    
+/**
+ * Controller for user header plugin.
+ */
+public class MainController extends PluginController {
+
+    @WiredComponent
+    private Button btnTest;
+
     @Override
-    public void afterInitialized(BaseComponent root) {
-        // TODO Auto-generated method stub
+    public void afterInitialized(BaseComponent comp) {
+        super.afterInitialized(comp);
+    }
 
+    /**
+     * Event handler for logout link
+     */
+    @EventHandler(value = "click", target = "btnTest")
+    private void handleClick() {
+        btnTest.addClass("flavor:btn-success");
     }
     
 }
