@@ -11,12 +11,30 @@
 	<name>CIMI Editor Web</name>
 	<artifactId>cimi-editor-web</artifactId>
 	<packaging>war</packaging>
-	<description>CIMI Test Harness</description>
+	<description>CIMI Editor Web</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.carewebframework</groupId>
 			<artifactId>org.carewebframework.shell</artifactId>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.carewebframework</groupId>-->
+			<!--<artifactId>org.carewebframework.web.core</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.carewebframework</groupId>-->
+			<!--<artifactId>org.carewebframework.web.script.groovy</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.carewebframework</groupId>-->
+			<!--<artifactId>org.carewebframework.web.script.jruby</artifactId>-->
+			<!--<version>${project.parent.version}</version>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>cimi-reporting</artifactId>
+			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>

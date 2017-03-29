@@ -5,6 +5,7 @@
             <tab label="Buttons">
                 <import src="pages/boxes.cwf" />
                 <html src="html/test.html" />
+                <hchart/>
             </tab>
 
             <tab label="Chart">
