@@ -1,0 +1,14 @@
+ <page name="page" title="CIMI Editor">
+    <window title="CWF Component Tests" class="flavor:panel-primary"
+    		controller="org.opencimi.cwf.cimi.editor.web.MainController">
+        <tabview name="tabview" height="500px" tabPosition="top">
+            <tab label="Buttons">
+                <!--<import src="pages/buttons.cwf" />-->
+            </tab>
+
+            <tab label="Chart">
+                <!--<import src="pages/chart.cwf" />-->
+            </tab>
+        </tabview>
+	</window>
+</page>

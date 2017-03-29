@@ -9,7 +9,7 @@
 	</parent>
 
 	<name>CIMI Test Harness</name>
-	<artifactId>cimi-testharness</artifactId>
+	<artifactId>cimi-editor-web</artifactId>
 	<packaging>war</packaging>
 	<description>CIMI Test Harness</description>
 

@@ -19,7 +19,7 @@
 
     <modules>
         <module>cimi-editor</module>
-        <module>cimi-testharness</module>
+        <module>cimi-editor-web</module>
     </modules>
 
 </project>

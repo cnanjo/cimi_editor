@@ -23,7 +23,7 @@
  *
  * #L%
  */
-package org.opencimi.cwf.cimi.testharness;
+package org.opencimi.cwf.cimi.editor.web;
 
 import org.carewebframework.web.ancillary.IAutoWired;
 import org.carewebframework.web.component.BaseComponent;
