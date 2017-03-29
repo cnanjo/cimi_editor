@@ -3,7 +3,8 @@
     		controller="org.opencimi.cwf.cimi.editor.web.MainController">
         <tabview name="tabview" height="500px" tabPosition="top">
             <tab label="Buttons">
-                <!--<import src="pages/buttons.cwf" />-->
+                <import src="pages/boxes.cwf" />
+                <html src="html/test.html" />
             </tab>
 
             <tab label="Chart">

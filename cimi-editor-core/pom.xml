@@ -7,8 +7,8 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<name>CIMI Editor</name>
-	<artifactId>cimi-editor</artifactId>
+	<name>CIMI Editor Core</name>
+	<artifactId>cimi-editor-core</artifactId>
 
 	<properties>
 		<webjar.name>cimi-editor</webjar.name>

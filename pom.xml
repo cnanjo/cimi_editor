@@ -18,8 +18,9 @@
     <description>An Editor for CIMI</description>
 
     <modules>
-        <module>cimi-editor</module>
+        <module>cimi-editor-core</module>
         <module>cimi-editor-web</module>
+        <module>cimi-reporting</module>
     </modules>
 
 </project>
