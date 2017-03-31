@@ -10,17 +10,18 @@
         <version>6.0.0-SNAPSHOT</version>
     </parent>
 
-    <name>CIMI Editor</name>
+    <name>CIMI Editor Parent</name>
     <groupId>org.opencimi.carewebframework</groupId>
-    <artifactId>cimi-parent</artifactId>
+    <artifactId>cimi-editor-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>An Editor for CIMI</description>
 
     <modules>
-        <module>cimi-editor-core</module>
+        <module>cimi-ui-parent</module>
+        <module>cimi-api-parent</module>
         <module>cimi-editor-web</module>
-        <module>cimi-reporting</module>
+        <module>cimi-component-parent</module>
     </modules>
 
 </project>

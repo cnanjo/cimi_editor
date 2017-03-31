@@ -1,0 +1,34 @@
+<page>
+	<!--
+	<stylesheet src="web/org/hspconsortium/cwf/plugin/patientheader/patientHeader.css?" />
+	
+	<div class="cwf-patientheader cwf-layout-horizontal" height="100%" width="100%"
+		controller="${@cwfPatientHeaderController}">
+		<toolbar name="tbPatient" height="100%">
+			<button name="btnDetail" popup="popDetail" 
+				class="glyphicon glyphicon-search"/>
+			<label name="lblName" style="font-weight:bold;padding-right:10px"
+				label="${@msg.cwfpatientheader.noselection}" />
+			<link name="lnkSelect"
+				label="${@msg.cwfpatientheader.change.label}"
+				hint="${@msg.cwfpatientheader.change.hint}" />
+			<div width="10px" />
+			<label name="lblDOBLabel" class="cwf-patientheader-label"
+				label="${@msg.cwfpatientheader.dob.label}" />
+			<label name="lblDOB" />
+			<label name="lblDODLabel" class="cwf-patientheader-label"
+				label="${@msg.cwfpatientheader.dod.label}" />
+			<label name="lblDOD" />
+			<label name="lblGender" />
+		</toolbar>
+		<toolbar name="tbUser" height="100%" flex="1" alignment="end">
+			<label name="lblUser" />
+			<div width="5px" />
+		</toolbar>
+		
+		<popup name="popDetail">
+			<div name="pnlDetail" class="cwf-patientheader-detail cwf-layout-horizontal"/>
+		</popup>
+	</div>
+	-->
+</page>

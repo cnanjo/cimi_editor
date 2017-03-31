@@ -4,7 +4,7 @@
 
 	<parent>
 		<groupId>org.opencimi.carewebframework</groupId>
-		<artifactId>cimi-parent</artifactId>
+		<artifactId>cimi-editor-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
@@ -19,23 +19,10 @@
 			<artifactId>org.carewebframework.shell</artifactId>
 		</dependency>
 		<!--<dependency>-->
-			<!--<groupId>org.carewebframework</groupId>-->
-			<!--<artifactId>org.carewebframework.web.core</artifactId>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.carewebframework</groupId>-->
-			<!--<artifactId>org.carewebframework.web.script.groovy</artifactId>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.carewebframework</groupId>-->
-			<!--<artifactId>org.carewebframework.web.script.jruby</artifactId>-->
+			<!--<artifactId>cimi-reporting</artifactId>-->
+			<!--<groupId>org.opencimi.carewebframework</groupId>-->
 			<!--<version>${project.parent.version}</version>-->
 		<!--</dependency>-->
-		<dependency>
-			<groupId>org.carewebframework</groupId>
-			<artifactId>cimi-reporting</artifactId>
-			<version>${project.parent.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
