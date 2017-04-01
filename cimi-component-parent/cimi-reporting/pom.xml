@@ -12,6 +12,7 @@
 
 	<properties>
 		<webjar.name>hchart</webjar.name>
+		<webjar.version>1.0.0</webjar.version>
         <requirejs>
         {
 			'paths': {

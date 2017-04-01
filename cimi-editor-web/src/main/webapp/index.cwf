@@ -1,6 +1,5 @@
  <page name="page" title="CIMI Editor">
-    <window title="CIMI Modeling Editor" class="flavor:panel-primary"
-    		controller="org.opencimi.cwf.cimi.editor.web.MainController">
+    <window title="CIMI Modeling Editor" class="flavor:panel-primary">
         <tabview name="workspace" height="100%" width="100%" tabPosition="top">
             <tab label="Configuration">
 
