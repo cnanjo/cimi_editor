@@ -16,6 +16,7 @@
                     </pane>
                     <pane title="Archetype Details" flex="1">
                         Should not have a splitter to the right
+                        <html src="html/test.html" />
                     </pane>
                 </paneview>
             </tab>
@@ -31,4 +32,7 @@
             </tab>
         </tabview>
 	</window>
+	<cscript type="text/javascript" src="angular/polyfills.js"></cscript>
+	<cscript type="text/javascript" src="angular/vendor.js"></cscript>
+	<cscript type="text/javascript" src="angular/app.js"></cscript>
 </page>

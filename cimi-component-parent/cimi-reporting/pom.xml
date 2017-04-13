@@ -9,10 +9,10 @@
 
 	<name>CIMI Reporting Tool</name>
 	<artifactId>cimi-reporting</artifactId>
+	<packaging>jar</packaging>
 
 	<properties>
 		<webjar.name>hchart</webjar.name>
-		<webjar.version>1.0.0</webjar.version>
         <requirejs>
         {
 			'paths': {

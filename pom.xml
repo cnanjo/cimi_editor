@@ -6,8 +6,8 @@
 
     <parent>
         <groupId>org.carewebframework</groupId>
-        <artifactId>org.carewebframework.plugin-parent</artifactId>
-        <version>6.0.0-SNAPSHOT</version>
+        <artifactId>org.carewebframework.web-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <name>CIMI Editor Parent</name>
@@ -16,6 +16,19 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>An Editor for CIMI</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <modules>
         <module>cimi-ui-parent</module>
