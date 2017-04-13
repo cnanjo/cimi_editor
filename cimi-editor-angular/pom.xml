@@ -16,9 +16,9 @@
 		<requirejs>
 			{
 				'paths': {
-				'angular-app': 'app',
-				'angular-vendor': 'vendor',
-				'angular-polyfills': 'polyfills'
+					'angular-app': 'app',
+					'angular-vendor': 'vendor',
+					'angular-polyfills': 'polyfills'
 				}
 			}
 		</requirejs>
