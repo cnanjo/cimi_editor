@@ -35,6 +35,7 @@
         <module>cimi-api-parent</module>
         <module>cimi-editor-web</module>
         <module>cimi-component-parent</module>
+        <module>cimi-editor-angular</module>
     </modules>
 
 </project>
