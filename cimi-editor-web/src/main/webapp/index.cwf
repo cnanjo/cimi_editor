@@ -1,5 +1,8 @@
  <page name="page" title="CIMI Editor">
     <window title="CIMI Modeling Editor" class="flavor:panel-primary">
+        <cscript>
+            require(['angular-polyfills']);
+        </cscript>
         <tabview name="workspace" height="100%" width="100%" tabPosition="top">
             <tab label="Configuration">
 
@@ -32,7 +35,7 @@
             </tab>
         </tabview>
 	</window>
-	<cscript type="text/javascript" src="angular/polyfills.js"></cscript>
+	<!--<cscript type="text/javascript" src="angular/polyfills.js"></cscript>
 	<cscript type="text/javascript" src="angular/vendor.js"></cscript>
-	<cscript type="text/javascript" src="angular/app.js"></cscript>
+	<cscript type="text/javascript" src="angular/app.js"></cscript>-->
 </page>
