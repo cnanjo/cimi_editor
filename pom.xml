@@ -31,11 +31,11 @@
     </build>
 
     <modules>
-        <module>cimi-ui-parent</module>
+        <module>cimi-editor-angular</module>
         <module>cimi-api-parent</module>
+        <module>cimi-ui-parent</module>
         <module>cimi-editor-web</module>
         <module>cimi-component-parent</module>
-        <module>cimi-editor-angular</module>
     </modules>
 
 </project>

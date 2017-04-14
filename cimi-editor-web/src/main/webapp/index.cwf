@@ -1,7 +1,18 @@
  <page name="page" title="CIMI Editor">
     <window title="CIMI Modeling Editor" class="flavor:panel-primary">
         <cscript>
-            require(['angular_polyfills']);
+            requirejs(['angular-polyfills'],
+                function   (polyfills) {
+                    requirejs(['angular-vendor'],
+                        function   (vendor) {
+                            requirejs(['angular-app'],
+                                function   (app) {
+                                }
+                            );
+                        }
+                    );
+                }
+            );
         </cscript>
         <tabview name="workspace" height="100%" width="100%" tabPosition="top">
             <tab label="Configuration">
@@ -20,6 +31,7 @@
                     <pane title="Archetype Details" flex="1">
                         Should not have a splitter to the right
                         <html src="html/test.html" />
+                        <import src="web/org/opencimi/cwf/editor/main.cwf" />
                     </pane>
                 </paneview>
             </tab>

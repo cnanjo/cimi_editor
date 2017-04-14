@@ -14,4 +14,16 @@
 		<module>cimi-plugin-model-tree</module>
 		<module>cimi-plugin-editor-core</module>
 	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.shell</artifactId>
+		</dependency>
+		<!-- Tests -->
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.ui.test</artifactId>
+		</dependency>
+	</dependencies>
 </project>
