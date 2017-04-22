@@ -1,10 +1,23 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core';
+import { enableProdMode, NgModule } from '@angular/core';
 
-import { AppModule } from './app/app.module';
+import { AngularComponent } from './app/pomodoro';
+import { BrowserModule } from '@angular/platform-browser';
 
 if (process.env.ENV === 'production') {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+// Main module, bootstrapping AngularComponent as root component
+
+@NgModule({
+  imports: [BrowserModule],
+  declarations: [AngularComponent],
+  bootstrap: [AngularComponent],
+})
+class AppModule { }
+
+// Application bootstrap (specific for browser environments)
+
+const platform = platformBrowserDynamic();
+platform.bootstrapModule(AppModule);

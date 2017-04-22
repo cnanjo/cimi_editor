@@ -8,11 +8,10 @@
     </parent>
 
     <artifactId>cimi-component-parent</artifactId>
-    <name>Component Aggregator</name>
+    <name>CIMI Component Aggregator</name>
     <packaging>pom</packaging>
 
     <modules>
-        <module>cimi-reporting</module>
     </modules>
 
 </project>

@@ -25,13 +25,13 @@
  */
 package org.opencimi.cwf.editor;
 
+import org.carewebframework.web.angular.AngularComponent;
 import org.carewebframework.web.annotation.Component;
-import org.carewebframework.web.component.BaseUIComponent;
 
 /**
  * CIMI Artifact Editor Component
  */
 @Component(value = "cimiEditor", widgetPackage = "cimi-editor", widgetClass = "CIMIEditor", parentTag = "*")
-public class CIMIEditor extends BaseUIComponent {
+public class CIMIEditor extends AngularComponent {
 
 }

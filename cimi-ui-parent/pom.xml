@@ -6,7 +6,7 @@
 	    <version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<name>UI Component Aggregator</name>
+	<name>CIMI Plugin Aggregator</name>
 	<artifactId>cimi-ui-parent</artifactId>
 	<packaging>pom</packaging>
 

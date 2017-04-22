@@ -1,0 +1,4 @@
+<page>
+	<cwfShellEx name="testHarness" height="100%" width="100%" layout="/layout.xml"
+		controller="org.carewebframework.testharness.TestHarnessController"  />
+</page>

@@ -13,28 +13,19 @@
     <name>CIMI Editor Parent</name>
     <groupId>org.opencimi.carewebframework</groupId>
     <artifactId>cimi-editor-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>An Editor for CIMI</description>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
+	<properties>
+		<org.carewebframework.web.version>1.0.0-SNAPSHOT</org.carewebframework.web.version>
+		<org.carewebframework.core.version>6.0.0-SNAPSHOT</org.carewebframework.core.version>
+	</properties>
+	
     <modules>
         <module>cimi-editor-angular</module>
         <module>cimi-api-parent</module>
         <module>cimi-ui-parent</module>
-        <module>cimi-editor-web</module>
+        <module>cimi-testharness</module>
         <module>cimi-component-parent</module>
     </modules>
 

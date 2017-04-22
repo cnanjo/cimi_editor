@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.opencimi.carewebframework</groupId>
+	    <artifactId>cimi-editor-parent</artifactId>
+	    <version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>cimi-testharness</artifactId>
+	<packaging>war</packaging>
+	<name>CIMI Editor Test Harness</name>
+	<description>CIMI Editor Test Harness.</description>
+	
+	<properties>
+		<exclude-war-builds>false</exclude-war-builds>
+	</properties>
+	
+	<dependencies>
+		<!-- Insert any plugins to be tested here. -->
+		<dependency>
+			<groupId>org.opencimi.carewebframework</groupId>
+			<artifactId>cimi-editor-angular</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.plugin.sandbox</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
+		<!-- CareWeb Framework Components -->
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.web.angular</artifactId>
+			<version>${org.carewebframework.web.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.security.mock</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.hibernate.h2</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.hibernate.property</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.testharness</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
+	</dependencies>
+</project>

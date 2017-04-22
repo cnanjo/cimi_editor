@@ -7,7 +7,7 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<name>API Aggregator</name>
+	<name>CIMI API Aggregator</name>
 	<artifactId>cimi-api-parent</artifactId>
 	<packaging>pom</packaging>
 
