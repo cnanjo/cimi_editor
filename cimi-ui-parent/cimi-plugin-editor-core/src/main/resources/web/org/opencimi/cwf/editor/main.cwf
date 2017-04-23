@@ -1,6 +1,6 @@
 <page>
 	<div controller="${@cimiEditorController}" height="100%" width="100%">
 		<button label="${@msg.cwf.cimi.editor.button.label}" name="btnTest" />
-		<cimi-editor />
+		<cimi-editor pause="false" />
 	</div>	
 </page>

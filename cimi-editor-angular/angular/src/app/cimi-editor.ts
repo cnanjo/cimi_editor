@@ -20,6 +20,7 @@ export class AngularComponent {
   seconds: number;
   isPaused: boolean;
   buttonLabel: string;
+  started: boolean;
 
   constructor() {
     this.resetPomodoro();
@@ -27,6 +28,7 @@ export class AngularComponent {
   }
 
   resetPomodoro(): void {
+    this.started = false;
     this.isPaused = true;
     this.minutes = 24;
     this.seconds = 59;
@@ -35,6 +37,7 @@ export class AngularComponent {
 
   private tick(): void {
     if (!this.isPaused) {
+      this.started = true;
       this.buttonLabel = 'Pause';
 
       if (--this.seconds < 0) {
@@ -46,9 +49,10 @@ export class AngularComponent {
     }
   }
 
-  togglePause(): void {
-    this.isPaused = !this.isPaused;
-    if (this.minutes < 24 || this.seconds < 59) {
+  public togglePause(paused: boolean = !this.isPaused): void {
+    this.isPaused = paused;
+
+    if (this.started) {
       this.buttonLabel = this.isPaused ? 'Resume' : 'Pause';
     }
   }

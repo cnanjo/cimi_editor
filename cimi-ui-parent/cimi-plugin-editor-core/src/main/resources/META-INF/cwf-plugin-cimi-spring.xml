@@ -12,7 +12,7 @@
 
 	<beans profile="root">
 
-		<cwc:component-scan package="org.opencimi.cwf.editor" />
+		<cwc:component-scan package="org.opencimi.cwf.**" />
 		
 		<cwp:plugin id="cimiEditor" name="CIMI Editor"
 			url="web/org/opencimi/cwf/editor/main.cwf">

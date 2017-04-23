@@ -27,6 +27,7 @@ package org.opencimi.cwf.editor;
 
 import org.carewebframework.web.angular.AngularComponent;
 import org.carewebframework.web.annotation.Component;
+import org.carewebframework.web.annotation.Component.PropertySetter;
 
 /**
  * CIMI Artifact Editor Component
@@ -36,5 +37,10 @@ public class CIMIEditor extends AngularComponent {
     
     public CIMIEditor() {
         setSrc("cimi-editor");
+    }
+    
+    @PropertySetter("pause")
+    public void setPause(boolean pause) {
+        ngInvoke("togglePause", pause);
     }
 }

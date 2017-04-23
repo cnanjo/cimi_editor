@@ -18,6 +18,7 @@ var AngularComponent = (function () {
         setInterval(function () { return _this.tick(); }, 1000);
     }
     AngularComponent.prototype.resetPomodoro = function () {
+        this.started = false;
         this.isPaused = true;
         this.minutes = 24;
         this.seconds = 59;
@@ -25,6 +26,7 @@ var AngularComponent = (function () {
     };
     AngularComponent.prototype.tick = function () {
         if (!this.isPaused) {
+            this.started = true;
             this.buttonLabel = 'Pause';
             if (--this.seconds < 0) {
                 this.seconds = 59;
@@ -34,9 +36,10 @@ var AngularComponent = (function () {
             }
         }
     };
-    AngularComponent.prototype.togglePause = function () {
-        this.isPaused = !this.isPaused;
-        if (this.minutes < 24 || this.seconds < 59) {
+    AngularComponent.prototype.togglePause = function (paused) {
+        if (paused === void 0) { paused = !this.isPaused; }
+        this.isPaused = paused;
+        if (this.started) {
             this.buttonLabel = this.isPaused ? 'Resume' : 'Pause';
         }
     };
