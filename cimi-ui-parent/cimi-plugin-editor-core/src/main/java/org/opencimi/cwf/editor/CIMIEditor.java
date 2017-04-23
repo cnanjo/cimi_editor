@@ -31,7 +31,10 @@ import org.carewebframework.web.annotation.Component;
 /**
  * CIMI Artifact Editor Component
  */
-@Component(value = "cimiEditor", widgetPackage = "cimi-editor", widgetClass = "CIMIEditor", parentTag = "*")
+@Component(value = "cimi-editor", widgetPackage = "cwf-angular-widget", widgetClass = "AngularWidget", parentTag = "*")
 public class CIMIEditor extends AngularComponent {
-
+    
+    public CIMIEditor() {
+        setSrc("cimi-editor");
+    }
 }

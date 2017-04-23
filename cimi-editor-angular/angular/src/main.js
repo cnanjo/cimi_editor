@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 var core_1 = require("@angular/core");
-var pomodoro_1 = require("./app/pomodoro");
+var cimi_editor_1 = require("./app/cimi-editor");
 var platform_browser_1 = require("@angular/platform-browser");
 if (process.env.ENV === 'production') {
     core_1.enableProdMode();
@@ -22,8 +22,8 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],
-        declarations: [pomodoro_1.AngularComponent],
-        bootstrap: [pomodoro_1.AngularComponent],
+        declarations: [cimi_editor_1.AngularComponent],
+        bootstrap: [cimi_editor_1.AngularComponent],
     })
 ], AppModule);
 // Application bootstrap (specific for browser environments)

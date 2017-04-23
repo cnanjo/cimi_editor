@@ -16,7 +16,7 @@
 		<requirejs>
 			{
 				'paths': {
-					'cimi-editor': 'app/pomodoro'
+					'cimi-editor': 'app/cimi-editor'
 				}
 			}
 		</requirejs>

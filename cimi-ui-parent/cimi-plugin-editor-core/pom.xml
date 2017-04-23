@@ -10,17 +10,6 @@
 	<name>CIMI Editor Core</name>
 	<artifactId>cimi-plugin-editor-core</artifactId>
 
-	<properties>
-		<webjar.name>cimi-editor</webjar.name>
-        <requirejs>
-        {
-			'paths': {
-				'cimi-editor': 'js/cimi-editor'
-			}
-		}
-        </requirejs>
-	</properties>
-	
 	<dependencies>
 		<dependency>
 			<groupId>org.carewebframework</groupId>
@@ -30,6 +19,11 @@
 			<groupId>org.carewebframework</groupId>
 			<artifactId>org.carewebframework.web.angular</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.opencimi.carewebframework</groupId>
+			<artifactId>cimi-editor-angular</artifactId>
+			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

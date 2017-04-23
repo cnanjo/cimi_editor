@@ -20,7 +20,7 @@
 		<!-- Insert any plugins to be tested here. -->
 		<dependency>
 			<groupId>org.opencimi.carewebframework</groupId>
-			<artifactId>cimi-editor-angular</artifactId>
+			<artifactId>cimi-plugin-editor-core</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>

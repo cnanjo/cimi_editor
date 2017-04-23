@@ -1,7 +1,7 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode, NgModule } from '@angular/core';
 
-import { AngularComponent } from './app/pomodoro';
+import { AngularComponent } from './app/cimi-editor';
 import { BrowserModule } from '@angular/platform-browser';
 
 if (process.env.ENV === 'production') {

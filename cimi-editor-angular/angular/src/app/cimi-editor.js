@@ -49,4 +49,4 @@ AngularComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], AngularComponent);
 exports.AngularComponent = AngularComponent;
-//# sourceMappingURL=pomodoro.js.map
+//# sourceMappingURL=cimi-editor.js.map
