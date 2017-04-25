@@ -2,9 +2,6 @@
 	<_menubar />
 	<_toolbar />
 	<splitterview orientation="vertical">
-		<splitterpane size="47" relative="false">
-			<cwfUserHeader />
-		</splitterpane>
 		<splitterpane size="90" relative="true">
 			<tabview orientation="top">
 				<tabpane label="Test Harness">

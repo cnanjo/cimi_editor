@@ -28,6 +28,11 @@
 			<artifactId>org.carewebframework.plugin.sandbox</artifactId>
 			<version>${org.carewebframework.core.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.carewebframework</groupId>
+			<artifactId>org.carewebframework.plugin.statuspanel</artifactId>
+			<version>${org.carewebframework.core.version}</version>
+		</dependency>
 		<!-- CareWeb Framework Components -->
 		<dependency>
 			<groupId>org.carewebframework</groupId>
