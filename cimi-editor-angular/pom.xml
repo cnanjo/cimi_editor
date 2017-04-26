@@ -37,12 +37,6 @@
 			<groupId>org.carewebframework</groupId>
 			<artifactId>org.carewebframework.web.angular</artifactId>
 			<version>${org.carewebframework.web.version}</version>
-			<scope>pom</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.carewebframework</groupId>
-			<artifactId>org.carewebframework.web.angular</artifactId>
-			<version>${org.carewebframework.web.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
