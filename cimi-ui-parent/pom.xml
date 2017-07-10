@@ -19,11 +19,13 @@
 		<dependency>
 			<groupId>org.carewebframework</groupId>
 			<artifactId>org.carewebframework.shell</artifactId>
+			<version>${org.carewebframework.core.version}</version>
 		</dependency>
 		<!-- Tests -->
 		<dependency>
 			<groupId>org.carewebframework</groupId>
 			<artifactId>org.carewebframework.ui.test</artifactId>
+			<version>${org.carewebframework.core.version}</version>
 		</dependency>
 	</dependencies>
 </project>

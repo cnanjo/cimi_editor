@@ -6,18 +6,19 @@
 
     <parent>
         <groupId>org.carewebframework</groupId>
-        <artifactId>org.carewebframework.web-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <artifactId>org.carewebframework-root</artifactId>
+        <version>6.0.0</version>
     </parent>
 
     <name>CIMI Editor Parent</name>
     <groupId>org.opencimi.carewebframework</groupId>
     <artifactId>cimi-editor-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>An Editor for CIMI</description>
 
 	<properties>
-		<org.carewebframework.web.version>1.0.0-SNAPSHOT</org.carewebframework.web.version>
+		<org.carewebframework.web.version>1.0.0</org.carewebframework.web.version>
 		<org.carewebframework.core.version>6.0.0-SNAPSHOT</org.carewebframework.core.version>
 	</properties>
 	
