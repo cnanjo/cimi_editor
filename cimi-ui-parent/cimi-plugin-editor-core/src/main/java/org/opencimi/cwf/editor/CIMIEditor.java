@@ -32,13 +32,13 @@ import org.carewebframework.web.annotation.Component.PropertySetter;
 /**
  * CIMI Artifact Editor Component
  */
-@Component(value = "cimi-editor", widgetModule = "cwf-angular-widget", widgetClass = "AngularWidget", parentTag = "*")
+@Component(tag = "cimi-editor", widgetModule = "cwf-angular-widget", widgetClass = "AngularWidget", parentTag = "*")
 public class CIMIEditor extends AngularComponent {
-    
+
     public CIMIEditor() {
         setSrc("cimi-editor");
     }
-    
+
     @PropertySetter("pause")
     public void setPause(boolean pause) {
         ngInvoke("togglePause", pause);
