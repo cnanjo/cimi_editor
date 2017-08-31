@@ -9,7 +9,7 @@
 
 	<beans profile="root">
 
-		<cwp:plugin url="web/org/opencimi/cwf/plugin/modeltree/modelTree.cwf"
+		<cwp:plugin url="web/org/opencimi/cwf/plugin/modeltree/modelTree.fsp"
 			id="cimiModelTree" name="Reference Model Tree Widget">
 			<cwp:serialization>
 				<cwp:property name="Background Color" id="color" type="color"

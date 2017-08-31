@@ -25,20 +25,20 @@
  */
 package org.opencimi.cwf.editor;
 
-import org.carewebframework.web.angular.AngularComponent;
-import org.carewebframework.web.annotation.Component;
-import org.carewebframework.web.annotation.Component.PropertySetter;
+import org.fujion.angular.AngularComponent;
+import org.fujion.annotation.Component;
+import org.fujion.annotation.Component.PropertySetter;
 
 /**
  * CIMI Artifact Editor Component
  */
-@Component(tag = "cimi-editor", widgetModule = "cwf-angular-widget", widgetClass = "AngularWidget", parentTag = "*")
+@Component(tag = "cimi-editor", widgetModule = "fujion-angular-widget", widgetClass = "AngularWidget", parentTag = "*")
 public class CIMIEditor extends AngularComponent {
-
+    
     public CIMIEditor() {
         setSrc("cimi-editor");
     }
-
+    
     @PropertySetter("pause")
     public void setPause(boolean pause) {
         ngInvoke("togglePause", pause);
